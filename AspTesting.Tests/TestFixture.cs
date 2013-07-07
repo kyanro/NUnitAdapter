@@ -19,3 +19,16 @@ namespace ASPTesting.Tests.UnitTests
         }
     }
 }
+
+namespace ASPTesting.Tests.UnitTests.Orders
+{
+    [TestFixture]
+    public class OrderSettingsFixture : AspFixture
+    {
+        [Test]
+        public void OrderSettingsTest()
+        {
+            RunAspTest("failed2.html");
+        }
+    }
+}
